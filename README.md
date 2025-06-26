@@ -1,4 +1,5 @@
-📝 Aplicação de Tarefas Agendadas (Laravel + Vue)
+📝 ###Aplicação de Tarefas Agendadas (Laravel + Vue)
+
 Projeto fullstack para cadastro e notificação de tarefas, desenvolvido como teste prático para vaga de Programador Pleno.
 
 ✅ Funcionalidades
