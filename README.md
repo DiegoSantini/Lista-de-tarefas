@@ -26,7 +26,8 @@ Projeto fullstack para cadastro e notificação de tarefas, desenvolvido como te
 ## 🚀 Como rodar o projeto
 
 ### 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/tarefas-fullstack.git
+git clone https://github.com/DiegoSantini/tarefas-fullstack.git
+
 cd tarefas-fullstack
 ### 2. Instale dependências do backend
 cd tarefas-api
