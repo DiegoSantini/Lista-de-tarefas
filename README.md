@@ -72,14 +72,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
 ```
-### Se não der certo alter o:
-```env
-DB_DATABASE=database/database.sqlite
-```
-### Para
-```env
-DB_DATABASE=/caminho/absoluto/ate/database/database.sqlite
-```
+
 
 #### Crie o arquivo do banco de dados em Linux:
 ```bash
@@ -91,6 +84,15 @@ touch database/database.sqlite
 ```
 
 **Ou crie manualmente:** `tarefas-api/database/database.sqlite`
+
+### Se não der certo altere o:
+```env
+DB_DATABASE=database/database.sqlite
+```
+### Para
+```env
+DB_DATABASE=/caminho/absoluto/ate/database/database.sqlite
+```
 
 #### Gere a chave da aplicação:
 ```bash
