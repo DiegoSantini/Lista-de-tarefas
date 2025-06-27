@@ -72,11 +72,24 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
 ```
+### Se não der certo alter o:
+```env
+DB_DATABASE=database/database.sqlite
+```
+### Para
+```env
+DB_DATABASE=/caminho/absoluto/ate/database/database.sqlite
+```
 
-#### Crie o arquivo do banco de dados:
+#### Crie o arquivo do banco de dados em Linux:
 ```bash
 touch database/database.sqlite
 ```
+#### Crie o arquivo do banco de dados em Windows:
+```bash
+ New-Item -Path "database/database.sqlite" -ItemType File
+```
+
 **Ou crie manualmente:** `tarefas-api/database/database.sqlite`
 
 #### Gere a chave da aplicação:
@@ -98,9 +111,13 @@ php artisan serve
 
 ### 3. Frontend (Vue)
 
+#### Em um novo Powershell:
+```bash
+cd tarefas-frontend
+```
+
 #### Instale as dependências:
 ```bash
-cd ../tarefas-frontend
 npm install
 ```
 
