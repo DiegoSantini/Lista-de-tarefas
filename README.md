@@ -44,6 +44,11 @@ git clone https://github.com/DiegoSantini/Lista-de-tarefas.git
 cd Lista-de-tarefas
 ```
 
+#### Abre o visual code:
+```bash
+code .
+```
+
 ### 2. Backend (Laravel)
 
 #### Instale as dependências:
